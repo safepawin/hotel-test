@@ -1,0 +1,80 @@
+@font-face{
+    font-family:'hcom-icons';
+    src:url("../fonts/hcom-icons.woff2") format("woff2"),
+    url("../fonts/hcom-icons.ttf") format("truetype"),
+    url("../fonts/hcom-icons.woff") format("woff"),
+    url("../fonts/hcom-icons.svg") format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:fallback;
+    font-display:block
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    font-family:inherit;
+    vertical-align:baseline
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+    display:block
+}
+
+body {
+    line-height:1;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    color: #333333;
+}
+
+ol, ul {
+    list-style-type: none;
+}
+
+/***** SECTION HOTEL HEAD ****/
+
+
+/***** SECTION HOTEL WARNING ****/
+
+
+/**** SECTION HOTEL IMAGE ***/
+
+.main {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+
+@media screen and (min-width: 150px) {
+
+    .main {
+        margin: 0px 32px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .main {
+        margin: 0px 32px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .main {
+        margin: 0px 32px;
+    }
+
+}
+
+@media screen and (min-width: 1152px) {
+
+    .main {
+        width: 1152px;
+        margin: 0 auto;
+    }
+
+}
