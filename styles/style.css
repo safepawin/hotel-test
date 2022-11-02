@@ -33,12 +33,126 @@ ol, ul {
 }
 
 /***** SECTION HOTEL HEAD ****/
+._hotelhead .head h1{
+    display: inline;
+    font-size: 28px;
+}
+
+.h_star{
+    color: red;
+}
+
+._hotelhead p{
+    margin-top: 8px;
+}
+
+._wifi{
+    cursor: pointer;
+    color: green;
+}
+
+._wifi::before{
+    content: '✓';
+}
+
+.h_option_list{
+    margin-top: 8px;
+}
+
+.h_option_list li{
+    display: inline;
+}
+
+._stamp{
+    cursor: pointer;
+    color: #7b1fa2;
+}
+
+._stamp span{
+    text-decoration: underline dotted;
+}
+
+._stamp::before{
+    content: '';
+}
+
+._waruntee{
+    cursor: pointer;
+    color: #063665;
+}
+
+._waruntee span{
+    text-decoration: underline dotted;
+}
+
+._waruntee::before{
+    content: '';
+}
 
 
 /***** SECTION HOTEL WARNING ****/
 
+._hwarning ._hwarning_content article {
+    background-color: #fcf2c5;
+    padding: 10px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+._hwarning ._hwarning_content article h2{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
 
 /**** SECTION HOTEL IMAGE ***/
+._himage{
+    width: 1152px;
+}
+
+._himage img{
+    width: 100%;
+}
+
+.content h2{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.content div h3{
+    margin-top: 8px;
+}
+
+.list{
+    display: inline-block;
+}
+
+.list ul li::before{
+    content: '•';
+    padding-right: 12px;
+}
+
+.hilight ul li::before{
+    content: '✓';
+    padding-right: 12px;
+}
+
+.list ul li {
+    padding: 8px;
+    display: block;
+}
+
+.list{
+    width: 100%;
+    column-count: 3;
+}
+
+.content{
+    margin-top: 18px;
+    border-bottom: solid gray 1px;
+    width: 100%;
+}
 
 .main {
     width: 1152px;
@@ -51,6 +165,21 @@ ol, ul {
     .main {
         margin: 0px 32px;
     }
+    .list{
+        width: 600px;
+        column-count: 2;
+    }
+
+    ._himage{
+        width: 600px;
+    }
+
+    ._hwarning{
+        width: 600px;
+    }
+    .content{
+        max-width: 600px;
+    }
 
 }
 
@@ -58,6 +187,22 @@ ol, ul {
 
     .main {
         margin: 0px 32px;
+    }
+
+    .list{
+        width: 768px;
+        column-count: 2;
+    }
+
+    ._himage{
+        width: 768px;
+    }
+
+    ._hwarning{
+        width: 768px;
+    }
+    .content{
+        max-width: 768px;
     }
 
 }
@@ -68,6 +213,20 @@ ol, ul {
         margin: 0px 32px;
     }
 
+    ._himage{
+        width: 1024px;
+    }
+    .list{
+        width: 1024px;
+        column-count: 3;
+    }
+    ._hwarning{
+        width: 1024px;
+    }
+    .content{
+        max-width: 1024px;
+    }
+
 }
 
 @media screen and (min-width: 1152px) {
@@ -75,6 +234,20 @@ ol, ul {
     .main {
         width: 1152px;
         margin: 0 auto;
+    }
+
+    ._himage{
+        width: 1152px;
+    }
+    .list{
+        width: 1152px;
+        column-count: 3;
+    }
+    ._hwarning{
+        width: 1152px;
+    }
+    .content{
+        max-width: 1152px;
     }
 
 }
